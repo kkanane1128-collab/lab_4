@@ -28,7 +28,7 @@ def lancer_application_notes(max_notes=5):
 
     print("\n" + "="*35)
     print(f"BILAN DE LA CLASSE ({len(notes)} notes)")
-    print("="*35)
+    print(""*35)
 
     if not notes:
         print("Aucune donnée à traiter.")
@@ -55,4 +55,5 @@ def lancer_application_notes(max_notes=5):
         print("appreciation : Niveau fragile (Insuffisant)")
 
 lancer_application_notes(max_notes=5)
+
         
